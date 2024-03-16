@@ -47,9 +47,9 @@ export default function DpGenerator() {
   return (
     <>
       <SEO
-        title='Generate Your DevFest Lagos 2023 DP'
-        description='Create and Share your DevFest Lagos 2023 DP with friends and on your socials'
-        keywords='gdg lagos, devfest, devfest lagos, devfest lagos 2023'
+        title='Generate Your Gretsa University National Programming Contest 2024 DP'
+        description='Create and Share your Gretsa University National Programming Contest 2024 DP with friends and on your socials'
+        keywords='gretsa university, gretsa, gretsa contest, gretsa university national programming contest 2024'
         image='/og-images/home-page.png'
       />
       <nav className='c-home__nav'>
@@ -57,9 +57,11 @@ export default function DpGenerator() {
       </nav>
       <main className='dp_gen_page'>
         <header className='dp_gen_page__header'>
-          <h2 className='dp_gen_page__header_title'>Pepper demmm!🥳</h2>
+          <h2 className='dp_gen_page__header_title'>
+            Gretsa University National Programming Contest 2024!🥳
+          </h2>
           <p className='dp_gen_page__header_details'>
-            Generate and share your unique Devfest Lagos 2023 DP
+            Generate and share your unique Gretsa University National Programming Contest 2024 DP
           </p>
 
           <figure className='dp_gen_page__header_avatar1'>
@@ -83,7 +85,9 @@ export default function DpGenerator() {
         {!isPreview ? (
           <section className='dp_gen_page__customize'>
             <div className='dp_gen_page__customize_container'>
-              <h4 className='dp_gen_page__customize_title'>Customise your Devfest DP</h4>
+              <h4 className='dp_gen_page__customize_title'>
+                Customise your Programming Contest DP
+              </h4>
               <form className='dp_gen_page__customize_form'>
                 <div className='dp_gen_page__customize_form_group'>
                   <label className='dp_gen_page__customize_form_group_label'>
