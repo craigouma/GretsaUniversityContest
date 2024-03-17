@@ -58,7 +58,7 @@ export default function DpGenerator() {
       <main className='dp_gen_page'>
         <header className='dp_gen_page__header'>
           <h2 className='dp_gen_page__header_title'>
-            Gretsa University National Programming Contest 2024!🥳
+            Gretsa University National Programming Contest 2024!
           </h2>
           <p className='dp_gen_page__header_details'>
             Generate and share your unique Gretsa University National Programming Contest 2024 DP
