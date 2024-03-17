@@ -52,7 +52,7 @@ export const DpGen: React.FC<Props> = ({ name, photo, theme, handleRegenerate })
           // Create a download link for the captured image
           const downloadLink = document.createElement("a");
           downloadLink.href = image;
-          downloadLink.download = `${name}-devfest-2023.png`;
+          downloadLink.download = `${name}-gretsa-university-contest-2024.png`;
           downloadLink.click();
         });
       });
@@ -126,7 +126,7 @@ export const DpGen: React.FC<Props> = ({ name, photo, theme, handleRegenerate })
                     </div>
                   </>
                 )}
-                <div className={styles.name}>😌 {name}</div>
+                <div className={styles.name}>{name}</div>
               </div>
               <div className={styles.be_there}>WILL BE AT</div>
 
@@ -136,16 +136,16 @@ export const DpGen: React.FC<Props> = ({ name, photo, theme, handleRegenerate })
 
               <ul className={styles.group}>
                 <li className={styles.list}>
-                  <div className={styles.name}>Get tickets at</div>
-                  <div className={styles.value}>devfestlagos.com</div>
+                  <div className={styles.name}>Event</div>
+                  <div className={styles.value}>National Programming Contest</div>
                 </li>
                 <li className={styles.list}>
                   <div className={styles.name}>Date</div>
-                  <div className={styles.value}>24-25th Nov</div>
+                  <div className={styles.value}>20th March</div>
                 </li>
                 <li className={styles.list}>
                   <div className={styles.name}>Venue</div>
-                  <div className={styles.value}>Landmark Event Center</div>
+                  <div className={styles.value}>Gretsa University Hall 1</div>
                 </li>
               </ul>
             </div>

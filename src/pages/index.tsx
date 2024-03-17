@@ -141,7 +141,7 @@ export default function DpGenerator() {
                       />
                       <span className='radio-button'></span>
                       <label className='form-check-label' htmlFor='radio1'>
-                        Green
+                        Apricot
                       </label>
                     </div>
                     <div className='form-check blue'>
@@ -157,21 +157,6 @@ export default function DpGenerator() {
                       <span className='radio-button'></span>
                       <label className='form-check-label' htmlFor='radio2'>
                         Blue
-                      </label>
-                    </div>
-                    <div className='form-check yellow'>
-                      <input
-                        className='form-check-input'
-                        id='radio3'
-                        type='radio'
-                        onChange={handleRadioChange}
-                        name='radioGroup'
-                        checked={selectedColor === "yellow"}
-                        value='yellow'
-                      />
-                      <span className='radio-button'></span>
-                      <label className='form-check-label' htmlFor='radio3'>
-                        Yellow
                       </label>
                     </div>
                     <div className='form-check red'>
@@ -216,11 +201,6 @@ export default function DpGenerator() {
 
       <footer className='c-home__footer'>
         <ul className='c-home__footer__links'>
-          <li className='c-home__footer__links__link'>
-            <a href='https://gdg.community.dev/gdg-lagos/' target='_blank'>
-              Join the community
-            </a>
-          </li>
           <li className='c-home__footer__links__link'>
             <a href='https://policies.google.com/privacy' target='_blank'>
               Privacy policy
