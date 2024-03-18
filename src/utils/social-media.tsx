@@ -6,18 +6,18 @@ import EmailIcon from "@/images/social-media/email.svg";
 export const socialMediaLinks = [
   {
     icon: <TwitterIcon />,
-    link: "https://twitter.com/gdglagos",
+    link: "https://twitter.com/gretsa_u",
   },
   {
     icon: <InstagramIcon />,
-    link: "https://instagram.com/gdglagos",
+    link: "https://instagram.com/gretsa_uni",
   },
   {
     icon: <YoutubeIcon />,
-    link: "https://www.youtube.com/@GDGLagos",
+    link: "https://www.youtube.com/@gretsauniversity9390",
   },
   {
     icon: <EmailIcon />,
-    link: "mailto:team@gdglagos.com",
+    link: "mailto:peter.siele@gretsauniversity.ac.ke",
   },
 ];

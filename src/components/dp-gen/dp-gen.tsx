@@ -126,7 +126,7 @@ export const DpGen: React.FC<Props> = ({ name, photo, theme, handleRegenerate })
                     </div>
                   </>
                 )}
-                <div className={styles.name}>{name}</div>
+                <div className={styles.name}>😎 {name}</div>
               </div>
               <div className={styles.be_there}>WILL BE AT</div>
 
